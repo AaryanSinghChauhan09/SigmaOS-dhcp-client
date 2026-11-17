@@ -3,7 +3,7 @@ name = "SigmaOS-dhcp-client"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "dhcp-client component"
+description = "SigmaOS SigmaOS-dhcp-client component"
 upstream = []
 
 [contract]
