@@ -6,6 +6,9 @@
 //! component isolation, stable API, deterministic tests.
 #![forbid(unsafe_code)]
 
+/// DHCP client module.
+pub mod sigmadhcp;
+
 use std::fmt;
 /// Errors for `ToolError` operations. Fail-fast: invalid input is rejected.
 #[derive(Debug, Clone, PartialEq, Eq)]
